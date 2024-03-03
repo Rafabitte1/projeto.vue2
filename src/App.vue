@@ -54,7 +54,7 @@ function resetar() {
       <p>O valor do contador é: {{ contador }}</p>
       <button @click="resetar">reset</button>
       <div
-      :style="{ backgroundColor: contador > 10 ? 'green' : 'red' }"
+      :style="{ backgroundColor: contador > 10 ? 'black' : 'red' }"
     >
       <p v-if="contador > 10">Valor maior que 10</p>
       <p v-else>Valor menor que 10</p>
